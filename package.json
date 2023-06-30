@@ -1,0 +1,28 @@
+{
+  "name": "encoding-com-connector",
+  "version": "1.0.0",
+  "description": "A connector to encoding.com api",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deBilla/encoding-com-connecctor.git"
+  },
+  "keywords": [
+    "node",
+    "encoding.com",
+    "video",
+    "encoding"
+  ],
+  "author": "Dimuthu Wickramanayake",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deBilla/encoding-com-connecctor/issues"
+  },
+  "homepage": "https://github.com/deBilla/encoding-com-connecctor#readme",
+  "dependencies": {
+    "axios": "^1.4.0"
+  }
+}
