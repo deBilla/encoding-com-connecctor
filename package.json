@@ -1,6 +1,6 @@
 {
   "name": "encoding-com-connector",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A connector to encoding.com api",
   "main": "index.js",
   "scripts": {

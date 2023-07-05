@@ -31,11 +31,13 @@ class EncodingConnector {
     }
   }
 
-  async encodeVideo(inputUrl, outputUrl) {
+  async encodeVideo(source, format) {
     const query = {
       userid: this.userId,
       userkey: this.userKey,
-      action: "AddMedia"
+      action: "AddMedia",
+      source: source,
+      format: format
     };
 
     try {
